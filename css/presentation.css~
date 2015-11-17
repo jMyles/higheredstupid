@@ -9,7 +9,6 @@ body {
 #beginning {
     background-color: #dcdcdc;
     width: auto;
-    white-space: nowrap;
 }
 
 #beginning h1 {
