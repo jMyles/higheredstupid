@@ -3,15 +3,52 @@ body {
 }
 
 .grid-slide {
-    border: 1px solid black;
+    height: 200px;
+    width: 300px;
 }
+
+.appear {
+        opacity: 1;
+	transition: opacity .25s ease-in;
+}
+
+
+.appear.future {
+    opacity: 0;
+}
+
+.disappear {
+    transition: opacity .25s ease-out;
+}
+
+.disappear.past {
+    opacity: 0;
+}
+
+
 
 #beginning {
     background-color: #dcdcdc;
     width: auto;
+    white-space: nowrap;
 }
 
 #beginning h1 {
     font-size:80px;
 }
+
+#human-condition {
+    background-color: rgb(255, 170, 22);
+}
+
+#human-reproduction-helix img {
+    width:300px;
+}
+
+#doe-orgchart img {
+    width: 60%;
+}
+
+
+
 
