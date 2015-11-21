@@ -1,5 +1,5 @@
 :title: A beginner's guide to all the stupid shit going on in higher education
-:data-transition-duration: 100
+:data-transition-duration: 800
 
 :css: css/presentation.css
 

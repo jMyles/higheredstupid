@@ -1,0 +1,154 @@
+@font-face {
+    font-family: timeless;
+    src: url("Timeless.ttf");
+}
+
+body {
+    text-align: center;
+    font-family: timeless;
+}
+
+.grid-slide {
+    height: 200px;
+    width: 300px;
+}
+
+.grid-slide h1 {
+    line-height: 10px;
+}
+
+.appear {
+    opacity: 1;
+	transition: opacity .25s ease-in;
+}
+
+.appear.future {
+    opacity: 0;
+}
+
+.disappear {
+    transition: opacity .25s ease-out;
+}
+
+.disappear.past {
+    opacity: 0;
+}
+
+.under-caption {
+    margin-top: 300px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: #8F8FFF;
+	color: white;
+	z-index: 50;
+}
+
+.circle h1 {
+    padding-top: 25%;
+}
+
+.white-text {
+    color: white;
+}
+
+#beginning {
+    background-color: #dcdcdc;
+    width: auto;
+    white-space: nowrap;
+}
+
+#beginning h1 {
+    font-size:80px;
+}
+
+#human-condition {
+    background-color: rgb(255, 170, 22);
+}
+
+#human-reproduction-helix img {
+    width:300px;
+}
+
+#conception img {
+    width:300px;
+}
+
+#education-memetic-text {
+    font-size:18px;
+}
+
+#the-campus {
+    background-color: rgb(245, 220, 186);
+}
+
+.half-screen {
+height: 384px;
+color: white;
+z-index: 0;
+width: 1030px;
+}
+
+#has-institutional-memory {
+background-color: #008000;
+margin-top: 191px;
+}
+
+#has-institutional-memory h1 {
+    margin-top: 300px;
+}
+
+#has-collective-amnesia {
+background-color: red;
+margin-top: -192px;
+}
+
+#has-collective-amnesia h1 {
+    margin-top: 40px;
+}
+
+#student-government-budget li {
+    font-size: 25px;
+}
+
+#first-definition h1, #second-definition h1 {
+    text-align: left;
+}
+
+#the-state {
+    background-color: #ACF9FF;
+}
+
+#state-structures {
+    background-color: #044B00;
+}
+
+#campus-body-politic {
+    background-color: #FFD9F1;
+}
+
+#adults {
+background-color: #BC6A00;
+margin-top: 191px;
+}
+
+#adults h1 {
+    margin-top: 300px;
+}
+
+#are-children {
+    background-color: #00CECE;
+    margin-top: -192px;
+}
+
+#are-children h1 {
+    margin-top: 40px;
+}
+
+#also-adults {
+    background-color: #BC6A00;
+    margin-top: -192px;
+}
